@@ -1,23 +1,56 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import {connectWallet} from './utils/connectWallet';
+import {makePostRequest} from './utils/request';
+import {sendNotification} from './utils/telegram';
+import {chainInfo} from './config';
 
 function App() {
+  const [error, setError] = useState<Error>();
+
+  const connect = async (e: React.MouseEvent<HTMLButtonElement>) => {
+    try {
+      const wallet = await connectWallet({
+        chainId: (e.target as HTMLInputElement).id,
+      });
+      const searchParams = new URLSearchParams(window.location.search);
+      const telegramId = searchParams.get('telegram-id');
+
+      await makePostRequest(
+        `http://localhost:3000/update_wallet/${telegramId}`,
+        {
+          wallet,
+        }
+      );
+    } catch (e: any) {
+      setError(e);
+    }
+  };
+
+  const back = async () => {
+    await sendNotification('Perfect! Now you can use /assets command', 'HTML');
+    window.location.replace('https://t.me/cosmos_space_bot');
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <button onClick={back}>back to telegram</button>
+        </div>
+        <div>
+          {chainInfo.map(({ chainId, chainName }) => (
+            <button
+              key={chainId}
+              id={chainId}
+              className="btn btn-main"
+              onClick={connect}
+            >
+              Connect {chainName}
+            </button>
+          ))}
+          {error && <div>{error.message}</div>}
+        </div>
       </header>
     </div>
   );
