@@ -1,0 +1,58 @@
+<svg width="98" height="88" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient gradientTransform="matrix(1.0037753582000732,0,0,1,-34.252572180179556,-17.757686614990234)" gradientUnits="userSpaceOnUse" r="9.5951" cy="60.5509" cx="85.1932" id="svg_6">
+   <stop stop-color="#FFFFFF" offset="0.0051"/>
+   <stop stop-opacity="0.9041" stop-color="#BBBDBF" offset="0.9592"/>
+  </radialGradient>
+  <radialGradient gradientTransform="matrix(1.0037753582000732,0,0,1,-34.252572180179556,-17.757686614990234)" gradientUnits="userSpaceOnUse" r="9.5951" cy="60.5509" cx="85.1932" id="svg_5">
+   <stop stop-color="#FFFFFF" offset="0.0051"/>
+   <stop stop-opacity="0.9041" stop-color="#BBBDBF" offset="0.5408"/>
+   <stop stop-opacity="0.9041" stop-color="#26A9E0" offset="1"/>
+  </radialGradient>
+  <linearGradient gradientTransform="matrix(1.0037753582000732,0,0,1,-34.252572180179556,-17.757686614990234)" y2="61.6414" x2="114.3541" y1="61.6414" x1="52.8417" gradientUnits="userSpaceOnUse" id="svg_4">
+   <stop stop-color="#FFFFFF" offset="0.0051"/>
+   <stop stop-opacity="0.9041" stop-color="#929497" offset="0.9592"/>
+  </linearGradient>
+  <linearGradient gradientTransform="matrix(1.0037753582000732,0,0,1,-34.252572180179556,-17.757686614990234)" y2="61.3227" x2="132.1582" y1="61.3227" x1="34.2636" gradientUnits="userSpaceOnUse" id="svg_3">
+   <stop stop-color="#FFFFFF" offset="0.0051"/>
+   <stop stop-opacity="0.9041" stop-color="#929497" offset="0.9592"/>
+  </linearGradient>
+  <linearGradient gradientTransform="matrix(1.0037753582000732,0,0,1,-34.252572180179556,-17.757686614990234)" y2="61.6414" x2="114.0012" y1="61.6414" x1="52.4888" gradientUnits="userSpaceOnUse" id="svg_2">
+   <stop stop-color="#FFFFFF" offset="0.0051"/>
+   <stop stop-opacity="0.9041" stop-color="#929497" offset="0.9592"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null">
+   <g stroke="null">
+    <circle stroke="null" fill="url(#svg_6)" r="9.6" cy="42.84231" cx="51.07692" class="st0"/>
+    <circle stroke="null" fill="url(#svg_5)" r="9.6" cy="42.84231" cx="51.07692" class="st1"/>
+   </g>
+   <g stroke="null">
+    <g stroke="null">
+     <path stroke="null" fill="url(#svg_4)" d="m24.97692,1.54231c-11.7,6.7 -5.5,31.6 6.6,52.7c12.2,21 30.6,38.8 42.4,32c11.7,-6.8 5.6,-31.7 -6.6,-52.7c-12.2,-21 -30.6,-38.8 -42.4,-32zm46.7,80.8c-7.7,4.5 -23.9,-9.2 -36.2,-30.4c-12.3,-21.3 -16,-42.1 -8.2,-46.5c7.7,-4.5 23.9,9.2 36.2,30.4s15.9,42.1 8.2,46.5z" class="st2"/>
+    </g>
+    <g stroke="null">
+     <path stroke="null" fill="#3EBBEC" d="m24.97692,1.54231c-11.7,6.7 -5.5,31.6 6.6,52.7c12.2,21 30.6,38.8 42.4,32c11.7,-6.8 5.6,-31.7 -6.6,-52.7c-12.2,-21 -30.6,-38.8 -42.4,-32zm46.7,80.8c-7.7,4.5 -23.9,-9.2 -36.2,-30.4c-12.3,-21.3 -16,-42.1 -8.2,-46.5c7.7,-4.5 23.9,9.2 36.2,30.4s15.9,42.1 8.2,46.5z" class="st3"/>
+    </g>
+   </g>
+   <g stroke="null">
+    <g stroke="null">
+     <path stroke="null" fill="url(#svg_3)" d="m0.17692,43.54231c0,13.6 24.6,20.7 48.9,20.7s48.9,-7.1 48.9,-20.7s-24.6,-20.7 -48.9,-20.7s-48.9,7.2 -48.9,20.7zm93.3,0c0,8.9 -19.9,16.1 -44.4,16.1c-24.5,0 -44.4,-7.2 -44.4,-16.1c0,-8.9 19.9,-16.1 44.4,-16.1c24.5,0 44.4,7.2 44.4,16.1z" class="st4"/>
+    </g>
+    <g stroke="null">
+     <path stroke="null" fill="#5A78BA" d="m0.17692,43.54231c0,13.6 24.6,20.7 48.9,20.7s48.9,-7.1 48.9,-20.7s-24.6,-20.7 -48.9,-20.7s-48.9,7.2 -48.9,20.7zm93.3,0c0,8.9 -19.9,16.1 -44.4,16.1c-24.5,0 -44.4,-7.2 -44.4,-16.1c0,-8.9 19.9,-16.1 44.4,-16.1c24.5,0 44.4,7.2 44.4,16.1z" class="st5"/>
+    </g>
+   </g>
+   <g stroke="null">
+    <g stroke="null">
+     <path stroke="null" fill="url(#svg_2)" d="m73.57692,1.54231c-11.7,-6.8 -30.2,11 -42.4,32.1c-12.1,21 -18.3,45.9 -6.5,52.6c11.7,6.8 30.2,-11 42.3,-32c12.2,-21.1 18.4,-46 6.6,-52.7zm-46.7,80.8c-7.7,-4.5 -4,-25.3 8.2,-46.5s28.5,-34.9 36.2,-30.4c7.7,4.5 4,25.3 -8.2,46.5c-12.3,21.3 -28.5,34.9 -36.2,30.4z" class="st6"/>
+    </g>
+    <g stroke="null">
+     <path stroke="null" fill="#3853A3" d="m73.57692,1.54231c-11.7,-6.8 -30.2,11 -42.4,32.1c-12.1,21 -18.3,45.9 -6.5,52.6c11.7,6.8 30.2,-11 42.3,-32c12.2,-21.1 18.4,-46 6.6,-52.7zm-46.7,80.8c-7.7,-4.5 -4,-25.3 8.2,-46.5s28.5,-34.9 36.2,-30.4c7.7,4.5 4,25.3 -8.2,46.5c-12.3,21.3 -28.5,34.9 -36.2,30.4z" class="st7"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
