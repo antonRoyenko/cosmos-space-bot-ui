@@ -1,15 +1,9 @@
-import { makePostRequest } from './request';
+import { makeGetRequest } from './getRequest'
 
-const telegramBotKey = process.env.BOT_TOKEN;
+export const sendNotification = async () => {
+  const searchParams = new URLSearchParams(window.location.search)
+  const telegramId = searchParams.get('telegram-id')
 
-export const sendNotification = async (text: string, parse_mode: string) => {
-  const searchParams = new URLSearchParams(window.location.search);
-  const chatId = searchParams.get('telegram-id');
-
-  const endpoint = `https://api.telegram.org/bot${telegramBotKey}/sendMessage`;
-  await makePostRequest(endpoint, {
-    text,
-    parse_mode,
-    chat_id: chatId,
-  });
-};
+  const endpoint = `http://localhost:3000/send_message/${telegramId}`
+  await makeGetRequest(endpoint)
+}

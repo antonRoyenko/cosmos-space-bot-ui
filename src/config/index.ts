@@ -1,5 +1,4 @@
 import { agoricChain } from './agoric'
-import { akashChain } from './akash'
 import { assetmantleChain } from './assetmantle'
 import { bandChain } from './band'
 import { bitsongChain } from './bitsong'
@@ -11,8 +10,6 @@ import { cryptoChain } from './cryptoOrg'
 import { desmosChain } from './demos'
 import { emoneyChain } from './emoney'
 import { evmosChain } from './evmos'
-import { fetchChain } from './fetch'
-import { kavaChain } from './kava'
 import { likecoinChain } from './likecoin'
 import { osmosisChain } from './osmosis'
 import { provenanceChain } from './provenance'
@@ -22,7 +19,6 @@ import { sifchainChain } from './sifchain'
 
 export const chainInfo = [
   agoricChain,
-  akashChain,
   assetmantleChain,
   bandChain,
   bitsongChain,
@@ -34,8 +30,6 @@ export const chainInfo = [
   desmosChain,
   emoneyChain,
   evmosChain,
-  fetchChain,
-  kavaChain,
   likecoinChain,
   osmosisChain,
   provenanceChain,
