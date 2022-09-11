@@ -9,6 +9,7 @@ import arrowLeft from './assets/arrowLeft.svg'
 import figure from './assets/figure.svg'
 
 function App() {
+  // TODO add error handling
   const { connect } = useConnect()
   const chunks = splitArrayIntoChunks(chainInfo, 5)
   const back = async () => {
