@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './App.css'
 import { sendNotification } from './utils/telegram'
 import { chainInfo } from './config'
@@ -8,7 +8,13 @@ import logo from './assets/logo.svg'
 import arrowLeft from './assets/arrowLeft.svg'
 import figure from './assets/figure.svg'
 
+const telegram = window.Telegram.WebApp
+
 function App() {
+  useEffect(() => {
+    telegram.ready()
+  }, [])
+
   // TODO add error handling
   const { connect } = useConnect()
   const chunks = splitArrayIntoChunks(chainInfo, 5)
