@@ -8,7 +8,7 @@ function Warning() {
     <div className='warning-wrapper'>
       <div className={'warning'}>
         I&apos;m open source bot and don&apos;t use any sensitive data. You can find all codebases
-        on my
+        on my{' '}
         <a
           href='https://github.com/antonRoyenko/cosmos-space-bot-ui'
           target={'_blank'}
