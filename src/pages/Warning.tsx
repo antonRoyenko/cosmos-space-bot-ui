@@ -1,6 +1,9 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 
 function Warning() {
+  const location = useLocation()
+
   return (
     <div className='warning-wrapper'>
       <div className={'warning'}>
@@ -15,7 +18,7 @@ function Warning() {
         </a>
         . The main idea - take your address and save it to database without manually action. If you
         want continue click to the{' '}
-        <a href='/' target={'_blank'}>
+        <a href={`/${location.search}`} target={'_blank'} rel='noreferrer'>
           link
         </a>
         , otherwise you can close modal window and choose other type adding an address
