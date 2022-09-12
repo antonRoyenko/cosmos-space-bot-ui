@@ -7,8 +7,8 @@ function Warning() {
   return (
     <div className='warning-wrapper'>
       <div className={'warning'}>
-        I&apos;m open source bot and don&apos;t use any sensitive data. You can find all codebase on
-        my{' '}
+        I&apos;m open source bot and don&apos;t use any sensitive data. You can find all codebases
+        on my
         <a
           href='https://github.com/antonRoyenko/cosmos-space-bot-ui'
           target={'_blank'}
@@ -16,12 +16,12 @@ function Warning() {
         >
           Github
         </a>
-        . The main idea - take your address and save it to database without manually action. If you
-        want continue click to the{' '}
+        . The main idea is to take your address and save it to the database without manual action.
+        If you want to continue, click on the{' '}
         <a href={`/${location.search}`} target={'_blank'} rel='noreferrer'>
           link
         </a>
-        , otherwise you can close modal window and choose other type adding an address
+        . Otherwise, you can close the modal window and choose another type adding an address.
       </div>
     </div>
   )

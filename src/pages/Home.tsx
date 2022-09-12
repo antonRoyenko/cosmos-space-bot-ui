@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.svg'
 import arrowLeft from '../assets/arrowLeft.svg'
-import figure from '../assets/figure.svg'
 import { useConnect } from '../utils/useConnect'
 import { splitArrayIntoChunks } from '../utils/splitArray'
 import { chainInfo } from '../config'
