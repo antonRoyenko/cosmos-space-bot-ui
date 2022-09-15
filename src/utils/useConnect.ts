@@ -14,9 +14,12 @@ export function useConnect() {
       const searchParams = new URLSearchParams(window.location.search)
       const telegramId = searchParams.get('telegram-id')
 
+      if (!wallet) return
       const response = await makePostRequest(`http://localhost:3000/update_wallet/${telegramId}`, {
-        wallet,
+        wallet: wallet.address,
+        name: wallet.address,
       })
+
       if (response.error) {
         toast(response.error)
         return
