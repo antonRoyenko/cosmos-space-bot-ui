@@ -17,7 +17,7 @@ export function useConnect() {
       if (!wallet) return
       const response = await makePostRequest(`http://localhost:3000/update_wallet/${telegramId}`, {
         wallet: wallet.address,
-        name: wallet.address,
+        name: wallet.name,
       })
 
       if (response.error) {
