@@ -19,6 +19,7 @@ function Home() {
 
     window.location.replace('https://t.me/cosmos_space_bot')
   }
+  console.log('test')
   return (
     <>
       <header className='App-header'>
